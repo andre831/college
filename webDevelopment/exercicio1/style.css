@@ -1,0 +1,23 @@
+* {
+    margin: 0 auto;
+    text-align: center;
+    list-style: none;
+}
+
+.productTable {
+    width: 470px;
+    margin-top: 30px;
+    padding: 4px;
+    border: 6px solid #000;
+}
+
+.productTable__header th {
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+.productTable__body-row td {
+    text-align: start;
+    border: 1px solid;
+    border-radius: 3px;
+}
