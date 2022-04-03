@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa da Técnologia</title>
+</head>
+<body>
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+        input{
+            margin-bottom: 10px;
+        }
+        button{
+            width: 90px;
+        }
+    </style>
+
+    <head>
+        <h1>
+            Casa da Tecnologia
+        </h1>
+    </head>
+    <main>
+        <form action="" method="POST">
+            <p>
+                Inclua as informações do produto abaixo:
+            </p>
+            <label for="input_name">
+                Nome do Produto:
+                <input type="text" name="input_name" placeholder="Adicione o nome do produto">
+            </label> 
+            <label for="input_description">
+                Descricao do produto:
+                <input type="text" name="input_description" placeholder="Descreva o produto">
+            </label>
+            <label for="input_value">
+                Valor do Produto:
+                <input type="text" name="input_value" placeholder="Valor do produto">
+            </label>
+            <label for="input_provider">
+                Fornecedor:
+                <input type="text" name="input_provider" placeholder="Nome do fornecedor">
+            </label>
+            <button type="submit" value="Cadastrar">
+                Cadastrar
+            </button>
+        </form>
+    </main>
+</body>
+
+</html>
